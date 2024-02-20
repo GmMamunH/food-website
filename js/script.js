@@ -91,3 +91,6 @@ function fadeOut(){
 }
 
 window.onload = fadeOut;
+
+
+document.getElementById("year").innerHTML = new Date().getFullYear();
